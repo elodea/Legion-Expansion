@@ -50,47 +50,6 @@ if (!legionExpansionLoaded) {
         console.log(JSON.stringify(e));
     }
 }
-//LOAD CUSTOM LEGION NEW GAME CSS
-loadCSS("coui://ui/mods/com.pa.legion-expansion/css/new_game.css");
-loadScript("coui://ui/mods/com.pa.legion-expansion/common.js");
-
-var legioncommanders = legionglobal.commanders;
-var vanillacommanders = ["/pa/units/commanders/quad_osiris/quad_osiris.json","/pa/units/commanders/imperial_delta/imperial_delta.json"];
-
-model.isNotLegion = function(commander){
-    return !_.includes(legioncommanders, commander);
-}
-
-//Style Commander Picker Legion
-$('.div-commander-picker-item.btn_std_ix').attr("data-bind","css: {legioncommander: !model.isNotLegion($data)}, click: function () { model.setCommander($index()) }, click_sound: 'default', rollover_sound: 'default'");
-
-//Style Slot Legion
-$('.slot-player').attr("data-bind","css: {legionslot: !model.isNotLegion($data.commander()), ready: isReady, loading: isLoading}");
-
-
-model.changeLegionAI = function(playerid){
-    //console.log("change to legion");
-    model.send_message('set_ai_commander', {
-        id: playerid,
-        ai_commander: legioncommanders[_.random(legioncommanders.length-1)]
-    });   
-}
-
-model.changeVanillaAI = function(playerid){
-    //console.log("change to vanilla");
-    model.send_message('set_ai_commander', {
-        id: playerid,
-        ai_commander: vanillacommanders[_.random(vanillacommanders.length-1)]
-    });   
-}
-
-//To Legion Button
-//$('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && model.isNotLegion(slot.commander()),click: function() { model.changeLegionAI(slot.playerId());}">to Legion</div>');
-//To Vanilla Button
-//$('.army-button.slot-remove-button.slot-remove-button-team').parent().append('<div class="army-button btn_add_ai" data-bind="visible: slot.ai() && !model.isNotLegion(slot.commander()),click: function() { model.changeVanillaAI(slot.playerId());}">to Vanilla</div>');
-
-
-//HACKY WAY TO SWITCH LEGION COMMANDER till lobby.js is updated
 model.LegionCommander = function (index) {
     model.targetAIArmyIndex(index);
     model.targetAISlotIndex(0);

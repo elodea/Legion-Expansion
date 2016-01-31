@@ -1,0 +1,5 @@
+{
+  "base_spec": "/pa/units/parent/sea/drone_carrier/drone/drone_ammo.json",
+  "damage": 50,
+  "turn_rate": 540
+}

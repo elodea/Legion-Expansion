@@ -1,0 +1,11 @@
+{
+  "base_spec": "/pa/units/parent/sea/drone_carrier/drone/drone_tool_weapon.json",
+  "target_priorities": [
+    "Fighter",
+	"Air",
+    "Mobile",
+    "Structure - Wall",
+    "Wall"
+  ],
+  "max_range": 70
+}

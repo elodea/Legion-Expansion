@@ -318,13 +318,6 @@
 
 
       {
-        spec_id: "/pa/units/land/L_bot_support_commander/L_bot_support_commander.json",
-        si_fallback: ["bot_support_commander"],
-        preferred_builds: [
-          ["L_bot", 0]
-        ]
-      },
-      {
         spec_id: "/pa/units/land/L_fabrication_bot_adv/L_fabrication_bot_adv.json",
         si_fallback: ["fabrication_bot_adv"],
         preferred_builds: [
@@ -489,7 +482,7 @@
           ["L_sea", 8]
         ]
       }, {
-        spec_id: "/pa/units/sea/L_sea_tank/L_sea_tank.json",
+        spec_id: "/pa/units/sea/L_nuclear_sub/L_nuclear_sub.json",
         si_fallback: ["nuclear_sub"],
         preferred_builds: [
           ["L_sea", 9]

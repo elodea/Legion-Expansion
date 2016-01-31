@@ -1,0 +1,24 @@
+{
+  "base_spec": "/pa/units/parent/land/assault_bot_adv/assault_bot_adv.json",
+  "build_metal_cost": 450,
+  "max_health": 500,
+  "guard_radius": 110,
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "radius": 100,
+          "shape": "capsule"
+        },
+        {
+          "channel": "sight",
+          "layer": "underwater",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  }
+}

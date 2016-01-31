@@ -2,8 +2,8 @@
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
 	"display_name": "Lancer",
 	"description": "Laser bot. Medium Range Laser Weapon. Attacks Land and Naval.",
-	"max_health": 75,
-	"build_metal_cost": 110,
+	"max_health": 84,
+	"build_metal_cost": 160,
 	"attachable": {
 		"offsets": {
 			"root": [0, 0, 0],
@@ -12,32 +12,32 @@
 	},
 	"unit_types": ["UNITTYPE_Bot", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom1"],
 	"guard_layer": "WL_AnySurface",
-	"navigation": {
-		"type": "land-small",
-		"acceleration": 120,
-		"brake": -1,
-		"move_speed": 12,
-		"turn_speed": 720,
-		"group_preference": "back"
-	},
+  "navigation": {
+    "acceleration": 50,
+    "brake": 50,
+    "move_speed": 14,
+    "turn_speed": 720,
+	"group_preference": "back"
+  },
 	"transportable": {
 		"size": 1
 	},
 	"physics": {
-		"radius": 3.5
-	},
+    "push_class": 2,
+    "radius": 3.5
+  },
 	"recon": {
 		"observer": {
 			"items": [{
 				"layer": "surface_and_air",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 95
+				"radius": 100
 			}, {
 				"layer": "underwater",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 95
+				"radius": 100
 			}]
 		}
 	},

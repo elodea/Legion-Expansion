@@ -31,18 +31,25 @@
 	"build_metal_cost": 90,
 	"description": "Scout Bot. Provides Short Range Vision and Radar Coverage For Friendly Units.",
 	"display_name": "Scout Bot",
+	"command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Assist",
+    "ORDER_Use",
+    "ORDER_FireSecondaryWeapon"
+  ],
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/bot"
 		},
 		"died": {
-			"audio_cue": "/SE/Death/Bot",
-			"effect_scale": 1
 		},
 		"fired": {
 			"audio_cue": "/SE/Weapons/bot/assault_fire",
 			"effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
 		}
+	},
+	"death": {
 	},
 	"guard_layer": "WL_AnySurface",
 	"max_health": 120,
@@ -77,23 +84,32 @@
 				"layer": "surface_and_air",				
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 200
+				"radius": 150
 			}, {
 				"layer": "underwater",				
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 200
+				"radius": 150
 			}, {
 				"layer": "mine",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 200
+				"radius": 150
 			}]
 		}
 	},
 	"selection_icon": {
 		"diameter": -8
 	},
+	"tools": [
+    {
+      "aim_bone": "bone_turret",
+      "muzzle_bone": "socket_rightMuzzle",
+	  "primary_weapon": false,
+      "secondary_weapon": true,
+      "spec_id": "/pa/units/land/L_scout_bot/L_scout_bot_tool_weapon.json"
+    }
+  ],
 	"transportable": {
 		"size": 1
 	},
@@ -107,5 +123,6 @@
 		"UNITTYPE_FactoryBuild",
 		"UNITTYPE_CannonBuildable",
 		"UNITTYPE_Custom1"
-	]
+	],
+	"wreckage_health_frac": 0.0
 }

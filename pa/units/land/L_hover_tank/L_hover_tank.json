@@ -11,7 +11,7 @@
 			"head": [0, 0, 2.7]
 		}
 	},
-	"unit_types": ["UNITTYPE_Tank", "UNITTYPE_Mobile", "UNITTYPE_Offense", "UNITTYPE_Land", "UNITTYPE_Basic", "UNITTYPE_Hover", "UNITTYPE_FactoryBuild", "UNITTYPE_Custom1"],
+	"unit_types": [""],
 	"transportable": {
 		"size": 1
 	},
@@ -125,5 +125,15 @@
 		"diameter": -12.0
 	},
 	"mesh_bounds": [6.468, 7.765, 5.711],
-	"TEMP_texelinfo": 22.4238
+	"TEMP_texelinfo": 22.4238,
+	"unit_types": [
+		"UNITTYPE_Tank",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Offense",
+		"UNITTYPE_Land",
+		"UNITTYPE_Basic",
+		"UNITTYPE_Hover",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_Custom1"
+	]
 }

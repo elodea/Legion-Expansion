@@ -1,0 +1,14 @@
+{
+  "base_spec": "/pa/units/parent/sea/drone_carrier/drone/drone.json",
+  "guard_radius": 550,
+  "navigation": {
+    "aggressive_distance": 100.0
+  },
+  "passive_health_regen": -6,
+  "unit_types": [
+    "UNITTYPE_Fighter",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Air",
+    "UNITTYPE_Basic"
+  ]
+}

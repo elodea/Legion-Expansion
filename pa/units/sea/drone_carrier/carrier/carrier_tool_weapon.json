@@ -1,0 +1,8 @@
+{
+  "base_spec": "/pa/units/parent/sea/drone_carrier/carrier/carrier_tool_weapon.json",
+  "ammo_capacity": 450,
+  "ammo_demand": 15,
+  "ammo_per_shot": 30,
+  "ammo_source": "metal",
+  "max_range": 500
+}
