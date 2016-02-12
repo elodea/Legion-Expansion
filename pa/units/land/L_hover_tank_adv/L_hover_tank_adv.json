@@ -61,28 +61,37 @@
 		},
 		"animtree": "/pa/anim/anim_trees/tank_hover_anim_tree.json"
 	},
-	"tools": [
-	{
+	"tools": [{
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"projectiles_per_fire": 3,
-		"muzzle_bone": [
-			"socket_muzzleRight01",
-			"socket_muzzleRight02",
-			"socket_muzzleRight03"
-		],
-		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
-	}, 
-	{
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleRight01"]
+	}, {
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"projectiles_per_fire": 3,
-		"muzzle_bone": [
-			"socket_muzzleRight04",
-			"socket_muzzleRight05",
-			"socket_muzzleRight06"
-		],
-		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json"
-	}
-],
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleRight02"]
+	}, {
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
+		"aim_bone": "bone_pitch",
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleRight03"]
+	}, {
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
+		"aim_bone": "bone_pitch",
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleLeft01"]
+	}, {
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
+		"aim_bone": "bone_pitch",
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleLeft02"]
+	}, {
+		"spec_id": "/pa/units/land/L_hover_tank_adv/L_hover_tank_adv_tool_weapon.json",
+		"aim_bone": "bone_pitch",
+		"projectiles_per_fire": 1,
+		"muzzle_bone": ["socket_muzzleLeft03"]
+	}],
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/veh"

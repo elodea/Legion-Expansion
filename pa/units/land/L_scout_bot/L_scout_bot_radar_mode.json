@@ -27,6 +27,9 @@
 			"cue": "/SE/Selection/bot/assault"
 		}
 	},
+	"command_caps": [
+    "ORDER_FireSecondaryWeapon"
+  ],	
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
 	"build_metal_cost": 90,
 	"description": "Radar vision but immobile",

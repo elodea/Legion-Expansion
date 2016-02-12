@@ -40,7 +40,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_light_fire",
-      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land/L_tank_shank/muzzle_flash.pfx socket_muzzle"
     }
   },
   "guard_layer": "WL_LandHorizontal",
@@ -69,7 +69,7 @@
       ]
     }
   ],
-  "max_health": 400,
+  "max_health": 425,
   "mesh_bounds": [
     4.941,
     6.102,

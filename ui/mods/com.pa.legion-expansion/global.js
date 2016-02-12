@@ -455,6 +455,13 @@
         preferred_builds: [
           ["L_air", 16]
         ]
+      },
+ {
+        spec_id: "/pa/units/air/L_air_bomb/L_air_bomb.json",
+        si_fallback: ["solar_drone"],
+        preferred_builds: [
+          ["L_air", 17]
+        ]
       }, {
         spec_id: "/pa/units/air/L_air_scout_adv/L_air_scout_adv.json",
         si_fallback: ["air_scout"],
@@ -660,7 +667,7 @@
           ["L_factory", 3]
         ]
       }, {
-        spec_id: "/pa/units/land/L_titan_vehicle/titan_vehicle.json",
+        spec_id: "/pa/units/land/L_titan_vehicle/L_titan_vehicle.json",
         si_fallback: ["titan_vehicle"],
         preferred_builds: [
           ["L_factory", 4]

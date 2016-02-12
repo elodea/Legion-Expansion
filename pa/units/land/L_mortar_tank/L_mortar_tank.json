@@ -55,7 +55,7 @@
     "acceleration": 50,
     "brake": 100,
     "group_preference": "back",
-    "move_speed": 6,
+    "move_speed": 8,
     "turn_speed": 50,
     "type": "land-small"
   },

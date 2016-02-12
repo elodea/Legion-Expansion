@@ -37,7 +37,7 @@
     "ORDER_Assist",
     "ORDER_Use",
     "ORDER_FireSecondaryWeapon"
-  ],
+  ],	
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/bot"
@@ -50,7 +50,7 @@
 		}
 	},
 	"death": {
-	},
+	},	
 	"guard_layer": "WL_AnySurface",
 	"max_health": 120,
 	"mesh_bounds": [
@@ -70,7 +70,7 @@
 	"navigation": {
 		"acceleration": 350,
 		"brake": 250,
-		"move_speed": 23,
+		"move_speed": 35,
 		"turn_speed": 720,
 		"type": "amphibious"
 	},
@@ -109,7 +109,7 @@
       "secondary_weapon": true,
       "spec_id": "/pa/units/land/L_scout_bot/L_scout_bot_tool_weapon.json"
     }
-  ],
+  ],	
 	"transportable": {
 		"size": 1
 	},
@@ -124,5 +124,5 @@
 		"UNITTYPE_CannonBuildable",
 		"UNITTYPE_Custom1"
 	],
-	"wreckage_health_frac": 0.0
+	"wreckage_health_frac": 0.0	
 }

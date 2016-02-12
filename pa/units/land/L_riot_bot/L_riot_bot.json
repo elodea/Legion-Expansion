@@ -39,13 +39,13 @@
       "audio_cue": "/SE/Death/Bot",
       "effect_scale": 1
     },
-	"fired": {
+    "fired": {
       "audio_cue": "/SE/Weapons/bot/grenadier_fire",
-      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle02 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle02 /pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle03 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle03 /pa/units/land/L_riot_bot/bullet_shells.pfx left_muzzle03 /pa/units/land/L_riot_bot/bullet_shells_left.pfx right_muzzle03"
+      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle01 /pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle02 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle02 /pa/effects/specs/default_small_muzzle_flash.pfx right_muzzle03 /pa/effects/specs/default_small_muzzle_flash.pfx left_muzzle03 /pa/units/land/L_riot_bot/bullet_shells.pfx bone_pivot /pa/units/land/L_riot_bot/bullet_shells_left.pfx bone_pivot"
     }
   },
   "guard_layer": "WL_AnySurface",
-  "max_health": 675,
+  "max_health": 700,
   "mesh_bounds": [
     9.125,
     9.623,
