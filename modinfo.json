@@ -18,11 +18,11 @@
     "com.pa.legion-expansion.client"
   ], 
   "description": "Super secret something something", 
-  "display_name": "Legion Expansion modified", 
+  "display_name": "Legion Expansion", 
   "enabled": true, 
   "forum": "", 
   "icon": "http://i.imgur.com/oyn18ZG.png", 
-  "identifier": "com.pa.legion-expansion-modified.server", 
+  "identifier": "com.pa.legion-expansion.server", 
   "scenes": {
     "global_mod_list": [
       "coui://ui/mods/com.pa.legion-expansion/global.js"
